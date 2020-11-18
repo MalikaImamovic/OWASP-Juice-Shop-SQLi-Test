@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLi", "SQLi.csproj", "{519EFE67-2351-4E19-A7B1-FC92E4F3AEB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{519EFE67-2351-4E19-A7B1-FC92E4F3AEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519EFE67-2351-4E19-A7B1-FC92E4F3AEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519EFE67-2351-4E19-A7B1-FC92E4F3AEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519EFE67-2351-4E19-A7B1-FC92E4F3AEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2B8D9F4-8CC8-4DF2-9660-A64B91A420EF}
+	EndGlobalSection
+EndGlobal
