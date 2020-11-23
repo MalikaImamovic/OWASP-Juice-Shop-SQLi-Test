@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using System.Text.Json;
 using System.Threading;
 
 /*
@@ -87,6 +88,12 @@ namespace Handler
 		public static void Line(char character = '=', int multiplication = 100)
 		{
 			Console.WriteLine(new string(character, multiplication));
+		}
+
+		public static string FormatJson(string stringJson)
+		{
+			JsonSerializerOptions options = new JsonSerializerOptions() { WriteIndented = true };
+			return JsonSerializer.Serialize(JsonSerializer.Deserialize<JsonElement>(stringJson), options);
 		}
 	}
 }
